@@ -29,10 +29,3 @@ variable "public_subnets" {
     public-2 = "10.42.12.0/24"
   }
 }
-
-variable "billing" {
-  type        = string
-  description = "put value"
-}
-
-
