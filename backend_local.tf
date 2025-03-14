@@ -1,10 +1,10 @@
-terraform { 
-  cloud { 
-    
-    organization = "testing-terrform" 
+terraform {
+  cloud {
 
-    workspaces { 
-      name = "web-network-dev" 
-    } 
-  } 
+    organization = "testing-terrform"
+
+    workspaces {
+      name = "web-network-dev"
+    }
+  }
 }
